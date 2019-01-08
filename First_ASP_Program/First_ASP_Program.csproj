@@ -12,8 +12,77 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\js\knockout.js" />
+    <Content Remove="knockout\.bower.json" />
+    <Content Remove="knockout\bower.json" />
+    <Content Remove="knockout\package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="knockout\Gruntfile.js" />
+    <None Remove="knockout\LICENSE" />
+    <None Remove="knockout\README.md" />
+    <None Remove="knockout\build\knockout-raw.js" />
+    <None Remove="knockout\build\fragments\extern-pre.js" />
+    <None Remove="knockout\build\fragments\source-references.js" />
+    <None Remove="knockout\dist\knockout.debug.js" />
+    <None Remove="knockout\src\google-closure-compiler-utils.js" />
+    <None Remove="knockout\src\memoization.js" />
+    <None Remove="knockout\src\namespace.js" />
+    <None Remove="knockout\src\options.js" />
+    <None Remove="knockout\src\tasks.js" />
+    <None Remove="knockout\src\utils.domData.js" />
+    <None Remove="knockout\src\utils.domManipulation.js" />
+    <None Remove="knockout\src\utils.domNodeDisposal.js" />
+    <None Remove="knockout\src\utils.js" />
+    <None Remove="knockout\src\version.js" />
+    <None Remove="knockout\src\virtualElements.js" />
+    <None Remove="knockout\src\binding\bindingAttributeSyntax.js" />
+    <None Remove="knockout\src\binding\bindingProvider.js" />
+    <None Remove="knockout\src\binding\expressionRewriting.js" />
+    <None Remove="knockout\src\binding\selectExtensions.js" />
+    <None Remove="knockout\src\binding\defaultBindings\attr.js" />
+    <None Remove="knockout\src\binding\defaultBindings\checked.js" />
+    <None Remove="knockout\src\binding\defaultBindings\click.js" />
+    <None Remove="knockout\src\binding\defaultBindings\css.js" />
+    <None Remove="knockout\src\binding\defaultBindings\enableDisable.js" />
+    <None Remove="knockout\src\binding\defaultBindings\event.js" />
+    <None Remove="knockout\src\binding\defaultBindings\foreach.js" />
+    <None Remove="knockout\src\binding\defaultBindings\hasfocus.js" />
+    <None Remove="knockout\src\binding\defaultBindings\html.js" />
+    <None Remove="knockout\src\binding\defaultBindings\ifIfnotWith.js" />
+    <None Remove="knockout\src\binding\defaultBindings\options.js" />
+    <None Remove="knockout\src\binding\defaultBindings\selectedOptions.js" />
+    <None Remove="knockout\src\binding\defaultBindings\style.js" />
+    <None Remove="knockout\src\binding\defaultBindings\submit.js" />
+    <None Remove="knockout\src\binding\defaultBindings\text.js" />
+    <None Remove="knockout\src\binding\defaultBindings\textInput.js" />
+    <None Remove="knockout\src\binding\defaultBindings\uniqueName.js" />
+    <None Remove="knockout\src\binding\defaultBindings\value.js" />
+    <None Remove="knockout\src\binding\defaultBindings\visible.js" />
+    <None Remove="knockout\src\binding\editDetection\arrayToDomNodeChildren.js" />
+    <None Remove="knockout\src\binding\editDetection\compareArrays.js" />
+    <None Remove="knockout\src\components\componentBinding.js" />
+    <None Remove="knockout\src\components\customElements.js" />
+    <None Remove="knockout\src\components\defaultLoader.js" />
+    <None Remove="knockout\src\components\loaderRegistry.js" />
+    <None Remove="knockout\src\subscribables\dependencyDetection.js" />
+    <None Remove="knockout\src\subscribables\dependentObservable.js" />
+    <None Remove="knockout\src\subscribables\extenders.js" />
+    <None Remove="knockout\src\subscribables\mappingHelpers.js" />
+    <None Remove="knockout\src\subscribables\observable.js" />
+    <None Remove="knockout\src\subscribables\observableArray.changeTracking.js" />
+    <None Remove="knockout\src\subscribables\observableArray.js" />
+    <None Remove="knockout\src\subscribables\subscribable.js" />
+    <None Remove="knockout\src\templating\templateEngine.js" />
+    <None Remove="knockout\src\templating\templateRewriting.js" />
+    <None Remove="knockout\src\templating\templateSources.js" />
+    <None Remove="knockout\src\templating\templating.js" />
+    <None Remove="knockout\src\templating\jquery.tmpl\jqueryTmplTemplateEngine.js" />
+    <None Remove="knockout\src\templating\native\nativeTemplateEngine.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\js\knockout.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAL\" />
   </ItemGroup>
 </Project>
