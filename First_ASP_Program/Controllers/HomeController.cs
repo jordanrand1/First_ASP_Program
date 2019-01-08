@@ -34,6 +34,22 @@ namespace First_ASP_Program.Controllers
             return View();
         }
 
+        public IActionResult Basic()
+        {
+            return View();
+        }
+
+        public IActionResult Advanced()
+        {
+            var person = new Person
+            {
+                FirstName = "Jordan",
+                LastName = "Rand"
+            };
+
+            return View(person);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
