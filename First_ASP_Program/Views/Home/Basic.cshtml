@@ -4,7 +4,7 @@
 
 <h2>Hello <span data-bind="text: name"></span></h2>
 <h2>Welcome to ASP and Knockout.js</h2>
-<button>Does Nothing</button>
+<button onclick="ko.applyBindings(viewModel);">Apply Binding</button>
 
 @section Scripts {
 <script>
@@ -13,6 +13,5 @@
     };
 
     var viewModel = new ViewModel();
-    ko.applyBindings(viewModel);
 </script>
 }
